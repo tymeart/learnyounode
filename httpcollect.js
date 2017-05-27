@@ -1,4 +1,5 @@
-var http = require('http');
+var http = require('http'),
+    bl = require('bl');
 
 var url = process.argv[2];
 
